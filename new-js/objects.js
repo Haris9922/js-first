@@ -9,6 +9,7 @@ const mySym = Symbol("key1")
 
  const jsUser = {
     name :"Harry",
+    "full name" : "Haris",
     age : 24,
     [mySym] : "mykey1",
     email : "haris99@gmail.com",
@@ -16,5 +17,10 @@ const mySym = Symbol("key1")
     isloggedIn : false,
     lastLoginDays : ["Monday" , "Sudnay"]
  }
- console.log(jsUser)
+ console.log(jsUser.email)
+ console.log(jsUser["email"])
+ console.log([jsUser[ "full name"] )
+ console.log([jsUser[ "full name"] )
+
+
  
