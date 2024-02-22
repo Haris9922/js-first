@@ -28,3 +28,22 @@ console.log( objt_1 , objt_2 , objt_3)
 const obj_res = {...objt_1 , ...objt_2 , ...objt_3}
 
 console.log(obj_res)
+
+// object destructor 
+
+const course = {
+    cousrse_name : "javaScript",
+    price : "150ruppee",
+    courdeInstructor:"pataNi"
+}
+// if we use same object in many times then we use 
+
+// course.courdeInstructor
+
+// best usage 
+// Example const {what you display} = object name where you pick object value 
+const {price} = course
+// more example if the word is big then use own word 
+const{price : pri} = course
+console.log(price);
+console.log(pri);
