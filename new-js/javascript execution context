@@ -1,0 +1,37 @@
+1) Global ececution context
+2) Function Ecexcution context
+3) Eval ececution context
+
+GLOBAL EC:
+Memory creation phase
+Ecexcution phase
+ 
+//  let val1 = 10
+// let val2 = 5
+// function addNum(num1 , num2){
+//     let total = num1 + num2 
+//     return total
+// }
+// let result1 = addNum(val1, val2)
+// let result1 = addNum(10, 2)
+
+Explation:
+1 Global execution its locate in this
+2 mphase 
+val1 -> undefined
+val2 -> undefined
+addNum ->defination
+result1-> undefined
+result2-> undefined
+it is first cycle
+3 execution phase 
+val1 -> 10
+val2 -> 5
+addNum ->defination (Hold)
+result1-> its create an other execution box (new varibale environment + execution thred) then
+val1 -> undefined
+val2 -> undefined
+total->undefined
+ --------------------------------------------------
+ call stack
+Last in firt out
