@@ -25,4 +25,4 @@ if (balance<500){
 } 
 
 
-&& And(both true) || (At least one true) 
+// && And(both true) || (At least one true) 
